@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <style>
+        /* Reset default margin and padding for all elements */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Apply a background color to the body */
+        body {
+            background-color: #f2f2f2;
+            font-family: "Roboto", sans-serif;
+        }
+
+        /* Make navigation items inline and style the links */
+        nav ul {
+            list-style: none;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        /* Style sections with class "section" */
+        .section {
+            background-color: #f8f8f8;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Style the footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Customize the form input fields and button */
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .submit-button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <h1>Welcome to My Portfolio</h1>
+        <p>This is my portfolio. I hope you like it.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>My name is Reda, and I'm 20.</p>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="section">
+        <h2>My Work</h2>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section">
+        <h2>My Resume</h2>
+        <!-- no resume yet :P -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <!-- Add contact information. -->
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" class="input-field" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name "email" class="input-field" required><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" class="input-field" required></textarea><br>
+
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>All rights reserved.</p>
+    </footer>
+</body>
+</html>
